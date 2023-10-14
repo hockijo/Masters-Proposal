@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  14 OCT 2023 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  14 OCT 2023 19:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -277,6 +277,35 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (d:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+ (d:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecaptionskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \flushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \endgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil }}\endgroup \vskip \belowcaptionskip  on input line 1170.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+) (d:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count302
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count303
 )
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 16.
 Class revtex4-2 Info: cite was not loaded (OK!) on input line 16.
@@ -284,9 +313,22 @@ Class revtex4-2 Info: mcite was not loaded (OK!) on input line 16.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 16.
  (d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
+\l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box69
-) (./masters_proposal.aux)
+) (./masters_proposal.aux
+
+LaTeX Warning: Label `fig:sim-transmission-dmim' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sim-transmission-dmim' multiply defined.
+
+
+LaTeX Warning: Label `fig:exp-transmission-dmim' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:exp-transmission-dmim' multiply defined.
+
+)
 \openout1 = `masters_proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -340,16 +382,16 @@ LaTeX Font Info:    ... okay on input line 16.
 
 (d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
-\scratchdimen=\dimen164
+\scratchcounter=\count305
+\scratchdimen=\dimen172
 \scratchbox=\box70
-\nofMPsegments=\count302
-\nofMParguments=\count303
+\nofMPsegments=\count306
+\nofMParguments=\count307
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count304
-\MPscratchDim=\dimen165
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen173
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
 \everyMPtoPDFconversion=\toks37
 ) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -357,6 +399,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (d:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 \openout3 = `masters_proposalNotes.bib'.
 
 <img/uwa-logo.png, id=1, 513.92pt x 513.92pt>
@@ -364,17 +408,19 @@ File: img/uwa-logo.png Graphic file (type png)
 <use img/uwa-logo.png>
 Package pdftex.def Info: img/uwa-logo.png  used on input line 48.
 (pdftex.def)             Requested size: 167.2989pt x 167.29648pt.
- [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/uwa-logo.png>] (./masters_proposal.toc
-Overfull \hbox (5.00002pt too wide) detected at line 10
- \OT1/cmr/m/n/10 10
- []
-
-)
+ [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/uwa-logo.png>] (./masters_proposal.toc)
 \tf@toc=\write4
 \openout4 = `masters_proposal.toc'.
 
+
+
+Package natbib Warning: Citation `abbott2016' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `preskillnodate' on page 2 undefined on input line 63.
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
- (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+(d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
@@ -385,90 +431,141 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 65.
  (d:/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<img/blank.png, id=12, 254.9525pt x 198.7425pt>
-File: img/blank.png Graphic file (type png)
-<use img/blank.png>
-Package pdftex.def Info: img/blank.png  used on input line 68.
-(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
+<img/interferometer.png, id=12, 619.56468pt x 624.83438pt>
+File: img/interferometer.png Graphic file (type png)
+<use img/interferometer.png>
+Package pdftex.def Info: img/interferometer.png  used on input line 68.
+(pdftex.def)             Requested size: 250.95476pt x 253.08514pt.
+
+
+Package natbib Warning: Citation `miao2015' on page 2 undefined on input line 69.
+
+
+Package natbib Warning: Citation `miao2015' on page 2 undefined on input line 69.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Package natbib Warning: Citation `page2021' on page 2 undefined on input line 73.
+
 [2]
-File: img/blank.png Graphic file (type png)
-<use img/blank.png>
-Package pdftex.def Info: img/blank.png  used on input line 89.
-(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
- [3 <./img/blank.png>] [4] [5]
-
-Package natbib Warning: Citation `page2021' on page 6 undefined on input line 155.
+<img/noise.png, id=23, 721.94719pt x 480.29437pt>
+File: img/noise.png Graphic file (type png)
+<use img/noise.png>
+Package pdftex.def Info: img/noise.png  used on input line 80.
+(pdftex.def)             Requested size: 209.12683pt x 139.12788pt.
 
 
-Package natbib Warning: Citation `page2021' on page 6 undefined on input line 160.
-
-[6]
-
-Package natbib Warning: Citation `kharel2019' on page 7 undefined on input line 165.
+Package natbib Warning: Citation `page2021' on page 3 undefined on input line 81.
 
 
-Package natbib Warning: Citation `li2016' on page 7 undefined on input line 165.
+Package natbib Warning: Citation `page2021' on page 3 undefined on input line 81.
+
+[3 <./img/interferometer.png>]
+<img/fabry-perot.png, id=28, 676.5275pt x 473.77pt>
+File: img/fabry-perot.png Graphic file (type png)
+<use img/fabry-perot.png>
+Package pdftex.def Info: img/fabry-perot.png  used on input line 95.
+(pdftex.def)             Requested size: 209.12683pt x 146.44789pt.
 
 
-Package natbib Warning: Citation `li2016' on page 7 undefined on input line 183.
+Package natbib Warning: Citation `wharton2011' on page 4 undefined on input line 96.
 
 
-Package natbib Warning: Citation `page2021' on page 7 undefined on input line 183.
+Package natbib Warning: Citation `wharton2011' on page 4 undefined on input line 96.
+
+[4 <./img/noise.png> <./img/fabry-perot.png>] [5] [6]
+<img/baw.png, id=46, 462.97969pt x 462.97969pt>
+File: img/baw.png Graphic file (type png)
+<use img/baw.png>
+Package pdftex.def Info: img/baw.png  used on input line 162.
+(pdftex.def)             Requested size: 209.12683pt x 209.13014pt.
 
 
-LaTeX Warning: Reference `fig:transmission-dmim' on page 7 undefined on input line 183.
-
-File: img/blank.png Graphic file (type png)
-<use img/blank.png>
-Package pdftex.def Info: img/blank.png  used on input line 186.
-(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
-File: img/blank.png Graphic file (type png)
-<use img/blank.png>
-Package pdftex.def Info: img/blank.png  used on input line 194.
-(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
-[7]
-File: img/blank.png Graphic file (type png)
-<use img/blank.png>
-Package pdftex.def Info: img/blank.png  used on input line 202.
-(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
- [8]
-
-Package natbib Warning: Citation `galliou2016' on page 9 undefined on input line 210.
+Package natbib Warning: Citation `galliou2016' on page 7 undefined on input line 163.
 
 
-Package natbib Warning: Citation `galliou2013' on page 9 undefined on input line 212.
+Package natbib Warning: Citation `galliou2016' on page 7 undefined on input line 163.
 
-[9] (./masters_proposal.bbl)
+
+Package natbib Warning: Citation `page2021' on page 7 undefined on input line 166.
+
+
+Package natbib Warning: Citation `page2021' on page 7 undefined on input line 171.
+
+[7 <./img/baw.png>]
+
+Package natbib Warning: Citation `kharel2019' on page 8 undefined on input line 176.
+
+
+Package natbib Warning: Citation `li2016' on page 8 undefined on input line 176.
+
+
+Package natbib Warning: Citation `li2016' on page 8 undefined on input line 194.
+
+
+Package natbib Warning: Citation `page2021' on page 8 undefined on input line 194.
+
+<img/simulated-position.png, id=52, 483.30562pt x 356.83313pt>
+File: img/simulated-position.png Graphic file (type png)
+<use img/simulated-position.png>
+Package pdftex.def Info: img/simulated-position.png  used on input line 198.
+(pdftex.def)             Requested size: 271.86234pt x 200.72902pt.
+<img/measured-position.png, id=53, 468.879pt x 350.181pt>
+File: img/measured-position.png Graphic file (type png)
+<use img/measured-position.png>
+Package pdftex.def Info: img/measured-position.png  used on input line 203.
+(pdftex.def)             Requested size: 271.86234pt x 203.03564pt.
+[8] [9 <./img/simulated-position.png> <./img/measured-position.png>]
+<img/0.04-coupling.png, id=67, 483.30562pt x 361.35pt>
+File: img/0.04-coupling.png Graphic file (type png)
+<use img/0.04-coupling.png>
+Package pdftex.def Info: img/0.04-coupling.png  used on input line 218.
+(pdftex.def)             Requested size: 271.86234pt x 203.2699pt.
+<img/0.16-coupling.png, id=68, 483.30562pt x 361.35pt>
+File: img/0.16-coupling.png Graphic file (type png)
+<use img/0.16-coupling.png>
+Package pdftex.def Info: img/0.16-coupling.png  used on input line 223.
+(pdftex.def)             Requested size: 271.86234pt x 203.2699pt.
+
+
+Package natbib Warning: Citation `galliou2016' on page 10 undefined on input line 234.
+
+
+Package natbib Warning: Citation `galliou2013' on page 10 undefined on input line 236.
+
+[10] [11 <./img/0.04-coupling.png> <./img/0.16-coupling.png>] [12] (./masters_proposal.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 52.
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-[10] (./masters_proposal.aux)
+[13] (./masters_proposal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6362 strings out of 476303
- 90046 string characters out of 5788266
- 1937248 words of memory out of 5000000
- 27400 multiletter control sequences out of 15000+600000
- 566691 words of font info for 72 fonts, out of 8000000 for 9000
+ 7868 strings out of 476303
+ 119430 string characters out of 5788266
+ 1935248 words of memory out of 5000000
+ 28894 multiletter control sequences out of 15000+600000
+ 568043 words of font info for 78 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 71i,9n,79p,1539b,290s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masters_proposal.pdf (10 pages, 290071 bytes).
+ 71i,9n,79p,1539b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on masters_proposal.pdf (13 pages, 1357161 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 176 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
