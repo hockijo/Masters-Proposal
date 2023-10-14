@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: masters_proposal.aux
+The style file: plain.bst
+Database file #1: masters_proposalNotes.bib
+Database file #2: cite.bib
+Warning--I didn't find a database entry for "galliou2013"
+Warning--empty journal in chennodate
+Warning--empty year in chennodate
+Warning--empty journal in jayich2008
+Warning--empty institution in page_supplementary
+Warning--empty year in page_supplementary
+Warning--empty journal in preskillnodate
+Warning--empty year in preskillnodate
+Warning--empty institution in urso1998
+Warning--empty journal in wharton2011
+You've used 38 entries,
+            2118 wiz_defined-function locations,
+            734 strings with 12438 characters,
+and the built_in function-call counts, 15547 in all, are:
+= -- 1411
+> -- 1109
+< -- 1
++ -- 441
+- -- 400
+* -- 1419
+:= -- 2753
+add.period$ -- 132
+call.type$ -- 38
+change.case$ -- 316
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 417
+empty$ -- 923
+format.name$ -- 400
+if$ -- 2997
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 36
+newline$ -- 210
+num.names$ -- 76
+pop$ -- 250
+preamble$ -- 1
+purify$ -- 276
+quote$ -- 0
+skip$ -- 279
+stack$ -- 0
+substring$ -- 776
+swap$ -- 41
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 152
+warning$ -- 9
+while$ -- 114
+width$ -- 40
+write$ -- 444
+(There were 10 warnings)

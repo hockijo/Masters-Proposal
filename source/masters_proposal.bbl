@@ -1,52 +1,210 @@
-%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
-%Control: key (0)
-%Control: author (8) initials jnrlst
-%Control: editor formatted (1) identically to author
-%Control: production of article title (0) allowed
-%Control: page (0) single
-%Control: year (1) truncated
-%Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
-\makeatletter
-\providecommand \@ifxundefined [1]{%
- \@ifx{#1\undefined}
-}%
-\providecommand \@ifnum [1]{%
- \ifnum #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \@ifx [1]{%
- \ifx #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \natexlab [1]{#1}%
-\providecommand \enquote  [1]{``#1''}%
-\providecommand \bibnamefont  [1]{#1}%
-\providecommand \bibfnamefont [1]{#1}%
-\providecommand \citenamefont [1]{#1}%
-\providecommand \href@noop [0]{\@secondoftwo}%
-\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
-\providecommand \@href[1]{\@@startlink{#1}\@@href}%
-\providecommand \@@href[1]{\endgroup#1\@@endlink}%
-\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
-\providecommand \@@startlink[1]{}%
-\providecommand \@@endlink[0]{}%
-\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
-\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
-\providecommand \urlprefix  [0]{URL }%
-\providecommand \Eprint [0]{\href }%
-\providecommand \doibase [0]{https://doi.org/}%
-\providecommand \selectlanguage [0]{\@gobble}%
-\providecommand \bibinfo  [0]{\@secondoftwo}%
-\providecommand \bibfield  [0]{\@secondoftwo}%
-\providecommand \translation [1]{[#1]}%
-\providecommand \BibitemOpen [0]{}%
-\providecommand \bibitemStop [0]{}%
-\providecommand \bibitemNoStop [0]{.\EOS\space}%
-\providecommand \EOS [0]{\spacefactor3000\relax}%
-\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
-\let\auto@bib@innerbib\@empty
-%</preamble>
-\end{thebibliography}%
+\begin{thebibliography}{10}
+
+\bibitem{bahl2014}
+Gaurav Bahl and Tal Carmon.
+\newblock Brillouin optomechanics.
+\newblock In {\em Cavity {Optomechanics}: {Nano}- and {Micromechanical} {Resonators} {Interacting} with {Light}}, pages 157--168. Springer Berlin Heidelberg, January 2014.
+\newblock arXiv: 1309.2828.
+
+\bibitem{bentley2019}
+Joe Bentley, Philip Jones, Denis Martynov, Andreas Freise, and Haixing Miao.
+\newblock Converting the signal-recycling cavity into an unstable optomechanical filter to enhance the detection bandwidth of gravitational-wave detectors.
+\newblock {\em Physical Review D}, 99(10):102001, May 2019.
+\newblock Publisher: American Physical Society.
+
+\bibitem{black2001}
+Eric~D. Black.
+\newblock An introduction to {Pound}–{Drever}–{Hall} laser frequency stabilization.
+\newblock {\em American Journal of Physics}, 69(1):79--87, January 2001.
+\newblock Publisher: American Association of Physics Teachers (AAPT).
+
+\bibitem{bon2018}
+Jérémy Bon, Leonhard Neuhaus, Samuel Deléglise, Tristan Briant, Philippe Abbé, Pierre~François Cohadon, and Serge Galliou.
+\newblock Cryogenic optomechanic cavity in low mechanical loss material.
+\newblock {\em Journal of Applied Physics}, 124(7), August 2018.
+\newblock Publisher: American Institute of Physics Inc.
+
+\bibitem{chennodate}
+Xu~Chen.
+\newblock Tabletop {Investigation} of {Parametric} {Instability} and {Light} {Scattering} {Phenomena} in {Gravitational} {Wave} {Detectors}.
+
+\bibitem{clark2016}
+J.~A. Clark, A.~Bauswein, N.~Stergioulas, and D.~Shoemaker.
+\newblock Observing gravitational waves from the post-merger phase of binary neutron star coalescence.
+\newblock {\em Classical and Quantum Gravity}, 33(8):085003, March 2016.
+\newblock Publisher: IOP Publishing.
+
+\bibitem{eernisse2001}
+E.P. EerNisse.
+\newblock Analysis of thickness modes of contoured doubly rotated, quartz resonators.
+\newblock {\em IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control}, 48(5):1351--1361, September 2001.
+
+\bibitem{galliou2016}
+Serge Galliou, Samuel Deléglise, Maxim Goryachev, Leonhard Neuhaus, Gianpietro Cagnoli, Salim Zerkani, Vincent Dolique, Jérémy Bon, Xavier Vacheret, Philippe Abbé, Laurent Pinard, Christophe Michel, Thibaut Karassouloff, Tristan Briant, Pierre-François Cohadon, Antoine Heidmann, Michael~E. Tobar, and Roger Bourquin.
+\newblock A new method of probing mechanical losses of coatings at cryogenic temperatures.
+\newblock {\em Review of Scientific Instruments}, 87(12):123906, December 2016.
+
+\bibitem{goryachev2014}
+Maxim Goryachev and Michael~E. Tobar.
+\newblock Effects of geometry on quantum fluctuations of phonon-trapping acoustic cavities.
+\newblock {\em New Journal of Physics}, 16, 2014.
+\newblock Publisher: Institute of Physics Publishing.
+
+\bibitem{jayich2008}
+A.~M. Jayich, J.~C. Sankey, B.~M. Zwickl, C.~Yang, J.~D. Thompson, S.~M. Girvin, A.~A. Clerk, F.~Marquardt, and J.~G.~E. Harris.
+\newblock Dispersive optomechanics: a membrane inside a cavity.
+\newblock May 2008.
+\newblock arXiv: 0805.3723.
+
+\bibitem{kharel2019}
+Prashanta Kharel, Glen~I. Harris, Eric~A. Kittlaus, William~H. Renninger, Nils~T. Otterstrom, Jack G.~E. Harris, and Peter~T. Rakich.
+\newblock High-frequency cavity optomechanics using bulk acoustic phonons.
+\newblock {\em Science Advances}, 5(4):eaav0582, April 2019.
+
+\bibitem{kleckner2011}
+Dustin Kleckner, Brian Pepper, Evan Jeffrey, Petro Sonin, Susanna~M. Thon, and Dirk Bouwmeester.
+\newblock Optomechanical trampoline resonators.
+\newblock {\em Optics Express}, 19(20):19708, September 2011.
+
+\bibitem{li2016}
+Jie Li, André Xuereb, Nicola Malossi, and David Vitali.
+\newblock Cavity mode frequencies and strong optomechanical coupling in two-membrane cavity optomechanics.
+\newblock {\em Journal of Optics}, 18(8):084001, August 2016.
+
+\bibitem{abbott2016}
+{LIGO Scientific Collaboration and Virgo Collaboration}.
+\newblock Observation of gravitational waves from a binary black hole merger.
+\newblock {\em Phys. Rev. Lett.}, 116:061102, Feb 2016.
+
+\bibitem{lukin1998}
+Mikhail~D. Lukin, Michael Fleischhauer, Marlan~O. Scully, and Vladimir~L. Velichansky.
+\newblock Intracavity electromagnetically induced transparency.
+\newblock {\em Optics Letters}, 23(4):295, February 1998.
+
+\bibitem{ma2014}
+Yiqiu Ma, Shtefan~L. Danilishin, Chunnong Zhao, Haixing Miao, W.~Zach Korth, Yanbei Chen, Robert~L Ward, and D.G. Blair.
+\newblock Narrowing the {Filter}-{Cavity} {Bandwidth} in {Gravitational}-{Wave} {Detectors} via {Optomechanical} {Interaction}.
+\newblock {\em Physical Review Letters}, 113(15):151102, October 2014.
+
+\bibitem{ma2015}
+Yiqiu Ma, Haixing Miao, Chunnong Zhao, and Yanbei Chen.
+\newblock Quantum noise of a white-light cavity using a double-pumped gain medium.
+\newblock {\em Physical Review A}, 92(2):023807, August 2015.
+\newblock Publisher: American Physical Society.
+
+\bibitem{miao2015}
+Haixing Miao, Yiqiu Ma, Chunnong Zhao, and Yanbei Chen.
+\newblock Enhancing the {Bandwidth} of {Gravitational}-{Wave} {Detectors} with {Unstable} {Optomechanical} {Filters}.
+\newblock {\em Physical Review Letters}, 115(21):211104, November 2015.
+\newblock Publisher: American Physical Society.
+
+\bibitem{nair2016}
+Bhagya Nair, André Xuereb, and Aurélien Dantan.
+\newblock Cavity optomechanics with arrays of thick dielectric membranes.
+\newblock {\em Physical Review A}, 94(5):053812, November 2016.
+
+\bibitem{page2018}
+Michael Page, Jiayi Qin, James La~Fontaine, Chunnong Zhao, Li~Ju, and David Blair.
+\newblock Enhanced detection of high frequency gravitational waves using optically diluted optomechanical filters.
+\newblock {\em Physical Review D}, 97(12):124060, June 2018.
+\newblock Publisher: American Physical Society.
+
+\bibitem{page2021}
+Michael~A. Page, Maxim Goryachev, Haixing Miao, Yanbei Chen, Yiqiu Ma, David Mason, Massimiliano Rossi, Carl~D. Blair, Li~Ju, David~G. Blair, Albert Schliesser, Michael~E. Tobar, and Chunnong Zhao.
+\newblock Gravitational wave detectors with broadband high frequency sensitivity.
+\newblock {\em Communications Physics}, 4(1), December 2021.
+\newblock arXiv: 2007.08766 Publisher: Nature Research.
+
+\bibitem{page_supplementary}
+Michael~A Page, Maxim Goryachev, Haixing Miao, Yanbei Chen, Yiqiu Ma, David Mason, Massimiliano Rossi, Carl~D Blair, Ju~Li, David~G Blair, Albert Schliesser, Michael~E Tobar, and Chunnong Zhao.
+\newblock Supplementary {Information} for "{Gravitational} wave detectors with broadband high frequency sensitivity".
+\newblock Technical report.
+
+\bibitem{pati2007}
+G.~S. Pati, M.~Salit, K.~Salit, and M.~S. Shahriar.
+\newblock Demonstration of a {Tunable}-{Bandwidth} {White}-{Light} {Interferometer} {Using} {Anomalous} {Dispersion} in {Atomic} {Vapor}.
+\newblock {\em Physical Review Letters}, 99(13):133601, September 2007.
+\newblock Publisher: American Physical Society.
+
+\bibitem{preskillnodate}
+John Preskill and Kip~S Thorne.
+\newblock Foreword to {Feynman} {Lectures} on {Gravitation}.
+
+\bibitem{renninger2018}
+W.~H. Renninger, P.~Kharel, R.~O. Behunin, and P.~T. Rakich.
+\newblock Bulk crystalline optomechanics.
+\newblock {\em Nature Physics}, 14(6):601--607, June 2018.
+\newblock arXiv: 1703.08231 Publisher: Nature Publishing Group.
+
+\bibitem{stevens1986}
+D.~S. Stevens and H.~F. Tiersten.
+\newblock An analysis of doubly rotated quartz resonators utilizing essentially thickness modes with transverse variation.
+\newblock {\em Journal of the Acoustical Society of America}, 79(6):1811--1826, 1986.
+
+\bibitem{urso1998}
+Brian D~' Urso, Oskar Painter, John O'brien, Tom Tombrello, Amnon Yariv, and Axel Scherer.
+\newblock Modal reflectivity in finite-depth two-dimensional photonic-crystal microcavities.
+\newblock Technical report, 1998.
+
+\bibitem{weis2010}
+S.~Weis, R.~Riviere, S.~Deleglise, E.~Gavartin, O.~Arcizet, A.~Schliesser, and T.~J. Kippenberg.
+\newblock Optomechanically induced transparency.
+\newblock {\em Science}, 330(6010):1520--1523, December 2010.
+\newblock arXiv:1007.0565 [quant-ph].
+
+\bibitem{wharton2011}
+Ken Wharton.
+\newblock Quantum {Theory} without {Quantization}.
+\newblock 2011.
+\newblock Publisher: arXiv Version Number: 1.
+
+\bibitem{wicht1997}
+A~Wicht, K~Danzmann, M~Fleischhauer, M~Scully, G~Müller, and R.~H Rinkleff.
+\newblock White-light cavities, atomic phase coherence, and gravitational wave detectors.
+\newblock {\em Optics Communications}, 134(1):431--439, January 1997.
+
+\bibitem{wicht2000}
+A.~Wicht, M.~Müller, R.~H. Rinkleff, A.~Rocco, and K.~Danzmann.
+\newblock Experimental demonstration of negative dispersion without absorption.
+\newblock {\em Optics Communications}, 179(1):107--115, May 2000.
+
+\bibitem{wise2004}
+Stacy Wise, G.~Mueller, D.~Reitze, D.~B. Tanner, and B.~F. Whiting.
+\newblock Linewidth-broadened {Fabry}–{Perot} cavities within future gravitational wave detectors.
+\newblock {\em Classical and Quantum Gravity}, 21(5):S1031, February 2004.
+
+\bibitem{wise2005}
+Stacy Wise, V.~Quetschke, A.~J. Deshpande, G.~Mueller, D.~H. Reitze, D.~B. Tanner, B.~F. Whiting, Y.~Chen, A.~Tünnermann, E.~Kley, and T.~Clausnitzer.
+\newblock Phase {Effects} in the {Diffraction} of {Light}: {Beyond} the {Grating} {Equation}.
+\newblock {\em Physical Review Letters}, 95(1):013901, June 2005.
+\newblock Publisher: American Physical Society.
+
+\bibitem{wu2008}
+Haibin Wu and Min Xiao.
+\newblock White-light cavity with competing linear and nonlinear dispersions.
+\newblock {\em Physical Review A}, 77(3):031801, March 2008.
+
+\bibitem{ying2021}
+Ma~Ke Ying, Xu~Chen, Yu~Ying Hsu, Dung~Sheng Tsai, Huang~Wei Pan, Shiuh Chao, Andrew Sunderland, Michael Page, Benjamin Neil, Li~Ju, Chun~Nong Zhao, and David Blair.
+\newblock Cat-flap micro-pendulum for low noise optomechanics.
+\newblock {\em Journal of Physics D: Applied Physics}, 54(3), January 2021.
+\newblock Publisher: IOP Publishing Ltd.
+
+\bibitem{yum2013}
+H.~N. Yum, J.~Scheuer, M.~Salit, P.~R. Hemmer, and M.~S. Shahriar.
+\newblock Demonstration of {White} {Light} {Cavity} {Effect} {Using} {Stimulated} {Brillouin} {Scattering} in a {Fiber} {Loop}.
+\newblock {\em Journal of Lightwave Technology}, 31(23):3865--3872, December 2013.
+\newblock Conference Name: Journal of Lightwave Technology.
+
+\bibitem{zhou2018}
+Minchuan Zhou and Selim~M. Shahriar.
+\newblock Optomechanical resonator as a negative dispersion medium for enhancing the sensitivity bandwidth in a gravitational-wave detector.
+\newblock {\em Physical Review D}, 98(2):022003, July 2018.
+
+\bibitem{zhou2015}
+Minchuan Zhou, Zifan Zhou, and Selim~M. Shahriar.
+\newblock Quantum noise limits in white-light-cavity-enhanced gravitational wave detectors.
+\newblock {\em Physical Review D}, 92(8):082002, October 2015.
+\newblock Publisher: American Physical Society.
+
+\end{thebibliography}
