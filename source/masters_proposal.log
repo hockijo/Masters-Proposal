@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  30 AUG 2023 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  14 OCT 2023 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/hocki/OneDrive/Desktop/Research Project/Masters Proposal/source/masters_proposal"
-(c:/Users/hocki/OneDrive/Desktop/Research Project/Masters Proposal/source/masters_proposal.tex
+**"c:/Users/hocki/OneDrive/Desktop/Research Project/Masters/Masters Proposal/source/masters_proposal"
+(c:/Users/hocki/OneDrive/Desktop/Research Project/Masters/Masters Proposal/source/masters_proposal.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (d:/texlive/2023/texmf-dist/tex/latex/revtex/revtex4-2.cls
@@ -68,11 +68,13 @@ Class revtex4-2 Info: Selecting society aps on input line 7669.
 File: aps4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for documentation)
 Class revtex4-2 Info: RevTeX society APS selected on input line 40.
 )
-Class revtex4-2 Info: Selecting journal pra on input line 7671.
+
+Class revtex4-2 Warning: No journal specified, using default pra.
+
 Class revtex4-2 Info: APS journal PRA selected on input line 7672.
- (d:/texlive/2023/texmf-dist/tex/latex/revtex/aps12pt4-2.rtx
-File: aps12pt4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for documentation)
-Class revtex4-2 Info: RevTeX pointsize 12pt selected on input line 39.
+(d:/texlive/2023/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx
+File: aps10pt4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for documentation)
+Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 39.
 ) (d:/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
@@ -225,6 +227,56 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
+) (d:/texlive/2023/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (d:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count282
+\c@Blindtext=\count283
+\c@blind@countparstart=\count284
+\blind@countxx=\count285
+\blindtext@numBlindtext=\count286
+\blind@countyy=\count287
+\c@blindlist=\count288
+\c@blindlistlevel=\count289
+\c@blindlist@level=\count290
+\blind@listitem=\count291
+\c@blind@listcount=\count292
+\c@blind@levelcount=\count293
+\blind@mathformula=\count294
+\blind@Mathformula=\count295
+\c@blind@randomcount=\count296
+\c@blind@randommax=\count297
+\c@blind@pangramcount=\count298
+\c@blind@pangrammax=\count299
+) (d:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box68
+\beforetitleunit=\skip59
+\aftertitleunit=\skip60
+\ttl@plus=\dimen159
+\ttl@minus=\dimen160
+\ttl@toksa=\toks35
+\titlewidth=\dimen161
+\titlewidthlast=\dimen162
+\titlewidthfirst=\dimen163
+) (d:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (d:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (d:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 16.
 Class revtex4-2 Info: cite was not loaded (OK!) on input line 16.
@@ -232,8 +284,8 @@ Class revtex4-2 Info: mcite was not loaded (OK!) on input line 16.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 16.
  (d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
-\l__pdf_internal_box=\box68
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box69
 ) (./masters_proposal.aux)
 \openout1 = `masters_proposal.aux'.
 
@@ -268,15 +320,15 @@ LaTeX Font Info:    ... okay on input line 16.
 * \textheight=591.5302pt
 * \oddsidemargin=17.3571pt
 * \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
-* \headheight=12.0pt
-* \headsep=25.0pt
+* \topmargin=-11.86334pt
+* \headheight=25.0pt
+* \headsep=16.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=25.25pt plus 4.0pt minus 12.0pt
+* \marginparwidth=30.0pt
+* \marginparsep=6.0pt
+* \columnsep=18.0pt
+* \skip\footins=39.0pt plus 4.0pt minus 12.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -288,17 +340,17 @@ LaTeX Font Info:    ... okay on input line 16.
 
 (d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen159
-\scratchbox=\box69
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen160
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count301
+\scratchdimen=\dimen164
+\scratchbox=\box70
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen165
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks37
 ) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -312,45 +364,111 @@ File: img/uwa-logo.png Graphic file (type png)
 <use img/uwa-logo.png>
 Package pdftex.def Info: img/uwa-logo.png  used on input line 48.
 (pdftex.def)             Requested size: 167.2989pt x 167.29648pt.
- [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/uwa-logo.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+ [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/uwa-logo.png>] (./masters_proposal.toc
+Overfull \hbox (5.00002pt too wide) detected at line 10
+ \OT1/cmr/m/n/10 10
+ []
+
+)
+\tf@toc=\write4
+\openout4 = `masters_proposal.toc'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 63.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 65.
  (d:/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<img/weber-bar.jpg, id=11, 803.0pt x 682.55pt>
-File: img/weber-bar.jpg Graphic file (type jpg)
-<use img/weber-bar.jpg>
-Package pdftex.def Info: img/weber-bar.jpg  used on input line 66.
-(pdftex.def)             Requested size: 209.12683pt x 177.75043pt.
- [2] [3 <./img/weber-bar.jpg>] [4] [5] [6]
-No file masters_proposal.bbl.
-[7] (./masters_proposal.aux)
+<img/blank.png, id=12, 254.9525pt x 198.7425pt>
+File: img/blank.png Graphic file (type png)
+<use img/blank.png>
+Package pdftex.def Info: img/blank.png  used on input line 68.
+(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+File: img/blank.png Graphic file (type png)
+<use img/blank.png>
+Package pdftex.def Info: img/blank.png  used on input line 89.
+(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
+ [3 <./img/blank.png>] [4] [5]
+
+Package natbib Warning: Citation `page2021' on page 6 undefined on input line 155.
+
+
+Package natbib Warning: Citation `page2021' on page 6 undefined on input line 160.
+
+[6]
+
+Package natbib Warning: Citation `kharel2019' on page 7 undefined on input line 165.
+
+
+Package natbib Warning: Citation `li2016' on page 7 undefined on input line 165.
+
+
+Package natbib Warning: Citation `li2016' on page 7 undefined on input line 183.
+
+
+Package natbib Warning: Citation `page2021' on page 7 undefined on input line 183.
+
+
+LaTeX Warning: Reference `fig:transmission-dmim' on page 7 undefined on input line 183.
+
+File: img/blank.png Graphic file (type png)
+<use img/blank.png>
+Package pdftex.def Info: img/blank.png  used on input line 186.
+(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
+File: img/blank.png Graphic file (type png)
+<use img/blank.png>
+Package pdftex.def Info: img/blank.png  used on input line 194.
+(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
+[7]
+File: img/blank.png Graphic file (type png)
+<use img/blank.png>
+Package pdftex.def Info: img/blank.png  used on input line 202.
+(pdftex.def)             Requested size: 209.12683pt x 163.02751pt.
+ [8]
+
+Package natbib Warning: Citation `galliou2016' on page 9 undefined on input line 210.
+
+
+Package natbib Warning: Citation `galliou2013' on page 9 undefined on input line 212.
+
+[9] (./masters_proposal.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[10] (./masters_proposal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 5319 strings out of 476303
- 75673 string characters out of 5788266
- 1928248 words of memory out of 5000000
- 26391 multiletter control sequences out of 15000+600000
- 565505 words of font info for 65 fonts, out of 8000000 for 9000
+ 6362 strings out of 476303
+ 90046 string characters out of 5788266
+ 1937248 words of memory out of 5000000
+ 27400 multiletter control sequences out of 15000+600000
+ 566691 words of font info for 72 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 71i,9n,79p,1438b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on masters_proposal.pdf (7 pages, 224617 bytes).
+ 71i,9n,79p,1539b,290s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on masters_proposal.pdf (10 pages, 290071 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

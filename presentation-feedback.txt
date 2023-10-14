@@ -1,0 +1,16 @@
+introduce arm cavity WITHIN cavity
+slide 4 bh and ns locations also math strain delta L/l
+slide 5 graphical show imposing
+slide 6 remove math, also show bw of wlc
+Slide 9 acknowledge hgih q came from EQUS
+
+timeline - this is scope and timeline combined call it proposed work
+ultimate goal is just to measure interaction
+if time allows, cryogenics, 
+move rad pressure to before cryogenics
+simulate q-factor degradation
+
+how much is a good coupling
+
+slide 7 not nessceary, jsut say we can realize through OM interaction
+slide 8 reduce the time spent on this
