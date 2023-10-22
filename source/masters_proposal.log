@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.17)  14 OCT 2023 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  22 OCT 2023 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,17 +23,17 @@ Class revtex4-2 Info: Repairing broken LaTeX eqnarray on input line 417.
 \eqncolsep=\skip48
 Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfootnote on input line 492.
 Class revtex4-2 Info: Repairing broken LateX \@sect on input line 814.
-\intertabularlinepenalty=\count181
-\@tbpen=\count182
+\intertabularlinepenalty=\count185
+\@tbpen=\count186
 \@arstrutbox@hline=\box51
 Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1845.
 Class revtex4-2 Info: Making \typeout \long on input line 2110.
 ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
-\c@affil=\count183
-\c@collab=\count184
+\c@affil=\count187
+\c@collab=\count188
 \absbox=\box52
 ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter web at superscript.com)]
-\c@linecount=\count185
+\c@linecount=\count189
 \output@latex=\toks17
 \box@size@1=\box53
 \box@size@2=\box54
@@ -44,21 +44,21 @@ ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter w
 \column@recovered=\box58
 \pagesofar=\box59
 \footsofar=\box60
-\pagegrid@col=\count186
+\pagegrid@col=\count190
 Class revtex4-2 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and \\  on input line 5676.
-\c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
+\c@part=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\c@figure=\count193
+\c@figure=\count197
 \fbox@1=\box61
-\c@table=\count194
+\c@table=\count198
 \fbox@2=\box62
-\c@video=\count195
+\c@video=\count199
 \fbox@4=\box63
 \@bibdataout=\write3
 \widetext@top=\box64
@@ -107,14 +107,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count196
+\inf@bad=\count266
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
+\uproot@=\count267
+\leftroot@=\count268
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count199
-\DOTSCASE@=\count266
+\classnum@=\count269
+\DOTSCASE@=\count270
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -127,20 +127,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
+\macc@depth=\count271
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count268
+\c@MaxMatrixCols=\count272
 \dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
 \tag@help=\toks21
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
 \andhelp@=\toks22
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
@@ -162,7 +162,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip54
 \bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count274
+\c@NAT@ctr=\count278
 )
 Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7676.
  (d:/texlive/2023/texmf-dist/tex/latex/revtex/revsymb4-2.sty
@@ -174,10 +174,6 @@ LaTeX Info: Redefining \REV@mathfrak on input line 128.
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
 ) (d:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (d:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
@@ -188,9 +184,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (d:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
 \Gm@bindingoffset=\dimen149
 \Gm@wd@mp=\dimen150
 \Gm@odd@mp=\dimen151
@@ -225,9 +221,9 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (d:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
- (d:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (d:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
@@ -236,24 +232,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (d:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count278
-\c@Blindtext=\count279
-\c@blind@countparstart=\count280
-\blind@countxx=\count281
-\blindtext@numBlindtext=\count282
-\blind@countyy=\count283
-\c@blindlist=\count284
-\c@blindlistlevel=\count285
-\c@blindlist@level=\count286
-\blind@listitem=\count287
-\c@blind@listcount=\count288
-\c@blind@levelcount=\count289
-\blind@mathformula=\count290
-\blind@Mathformula=\count291
-\c@blind@randomcount=\count292
-\c@blind@randommax=\count293
-\c@blind@pangramcount=\count294
-\c@blind@pangrammax=\count295
+\c@blindtext=\count282
+\c@Blindtext=\count283
+\c@blind@countparstart=\count284
+\blind@countxx=\count285
+\blindtext@numBlindtext=\count286
+\blind@countyy=\count287
+\c@blindlist=\count288
+\c@blindlistlevel=\count289
+\c@blindlist@level=\count290
+\blind@listitem=\count291
+\c@blind@listcount=\count292
+\c@blind@levelcount=\count293
+\blind@mathformula=\count294
+\blind@Mathformula=\count295
+\c@blind@randomcount=\count296
+\c@blind@randommax=\count297
+\c@blind@pangramcount=\count298
+\c@blind@pangrammax=\count299
 ) (d:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box68
@@ -270,9 +266,10 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (d:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
  (d:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
@@ -301,26 +298,23 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count296
-\c@continuedfloat=\count297
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
 ) (d:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count298
+\c@subfigure=\count302
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count299
+\c@subtable=\count303
 )
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 16.
 Class revtex4-2 Info: cite was not loaded (OK!) on input line 16.
 Class revtex4-2 Info: mcite was not loaded (OK!) on input line 16.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 16.
- (d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
-\g__graphics_track_int=\count300
+ (d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box69
-\g__pdf_backend_object_int=\count301
-\g__pdf_backend_annotation_int=\count302
-\g__pdf_backend_link_int=\count303
 ) (./masters_proposal.aux
 
 LaTeX Warning: Label `fig:sim-transmission-dmim' multiply defined.
@@ -346,12 +340,6 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 16.
- (d:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -359,9 +347,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -392,13 +380,35 @@ LaTeX Font Info:    ... okay on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count305
+\scratchdimen=\dimen172
+\scratchbox=\box70
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen173
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks37
+) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (d:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout3 = `masters_proposalNotes.bib'.
 
-File: img/uwa-logo.png Graphic file (type bmp)
-<img/uwa-logo.png>
-[1] (./masters_proposal.toc)
+<img/uwa-logo.png, id=1, 513.92pt x 513.92pt>
+File: img/uwa-logo.png Graphic file (type png)
+<use img/uwa-logo.png>
+Package pdftex.def Info: img/uwa-logo.png  used on input line 48.
+(pdftex.def)             Requested size: 167.2989pt x 167.29648pt.
+ [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/uwa-logo.png>] (./masters_proposal.toc)
 \tf@toc=\write4
 \openout4 = `masters_proposal.toc'.
 
@@ -414,45 +424,62 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 65.
  (d:/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-File: img/interferometer.png Graphic file (type bmp)
-<img/interferometer.png>
+<img/interferometer.png, id=12, 619.56468pt x 624.83438pt>
+File: img/interferometer.png Graphic file (type png)
+<use img/interferometer.png>
+Package pdftex.def Info: img/interferometer.png  used on input line 68.
+(pdftex.def)             Requested size: 250.95476pt x 253.08514pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<img/noise.png, id=13, 721.94719pt x 480.29437pt>
+File: img/noise.png Graphic file (type png)
+<use img/noise.png>
+Package pdftex.def Info: img/noise.png  used on input line 80.
+(pdftex.def)             Requested size: 209.12683pt x 139.12788pt.
 [2]
-File: img/noise.png Graphic file (type bmp)
-<img/noise.png>
- [3]
-File: img/fabry-perot.png Graphic file (type bmp)
-<img/fabry-perot.png>
- [4] [5] [6]
-File: img/baw.png Graphic file (type bmp)
-<img/baw.png>
- [7]
-File: img/simulated-position.png Graphic file (type bmp)
-<img/simulated-position.png>
-File: img/measured-position.png Graphic file (type bmp)
-<img/measured-position.png>
- [8] [9]
-File: img/0.04-coupling.png Graphic file (type bmp)
-<img/0.04-coupling.png>
-File: img/0.16-coupling.png Graphic file (type bmp)
-<img/0.16-coupling.png>
+Overfull \vbox (9.73766pt too high) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `galliou2013' on page 10 undefined on input line 236.
-
-[10] [11] [12] (./masters_proposal.bbl
-Underfull \hbox (badness 1142) in paragraph at lines 65--68
-[]\TU/lmr/m/n/9 Dustin Kleckner, Brian Pepper, Evan Jeffrey, Petro Sonin, Susanna M. Thon, and Dirk
+ [3 <./img/interferometer.png>]
+<img/fabry-perot.png, id=30, 676.5275pt x 473.77pt>
+File: img/fabry-perot.png Graphic file (type png)
+<use img/fabry-perot.png>
+Package pdftex.def Info: img/fabry-perot.png  used on input line 95.
+(pdftex.def)             Requested size: 209.12683pt x 146.44789pt.
+ [4 <./img/noise.png> <./img/fabry-perot.png>] [5] [6]
+<img/baw.png, id=46, 462.97969pt x 462.97969pt>
+File: img/baw.png Graphic file (type png)
+<use img/baw.png>
+Package pdftex.def Info: img/baw.png  used on input line 160.
+(pdftex.def)             Requested size: 209.12683pt x 209.13014pt.
+ [7 <./img/baw.png>] [8]
+<img/simulated-position.png, id=55, 483.30562pt x 356.83313pt>
+File: img/simulated-position.png Graphic file (type png)
+<use img/simulated-position.png>
+Package pdftex.def Info: img/simulated-position.png  used on input line 196.
+(pdftex.def)             Requested size: 271.86234pt x 200.72902pt.
+<img/measured-position.png, id=56, 468.879pt x 350.181pt>
+File: img/measured-position.png Graphic file (type png)
+<use img/measured-position.png>
+Package pdftex.def Info: img/measured-position.png  used on input line 201.
+(pdftex.def)             Requested size: 271.86234pt x 203.03564pt.
+<img/0.04-coupling.png, id=57, 483.30562pt x 361.35pt>
+File: img/0.04-coupling.png Graphic file (type png)
+<use img/0.04-coupling.png>
+Package pdftex.def Info: img/0.04-coupling.png  used on input line 216.
+(pdftex.def)             Requested size: 271.86234pt x 203.2699pt.
+<img/0.16-coupling.png, id=58, 483.30562pt x 361.35pt>
+File: img/0.16-coupling.png Graphic file (type png)
+<use img/0.16-coupling.png>
+Package pdftex.def Info: img/0.16-coupling.png  used on input line 221.
+(pdftex.def)             Requested size: 271.86234pt x 203.2699pt.
+ [9] [10 <./img/simulated-position.png> <./img/measured-position.png>] [11 <./img/0.04-coupling.png> <./img/0.16-coupling.png>] (./masters_proposal.bbl [12]
+Underfull \hbox (badness 1152) in paragraph at lines 70--73
+[]\OT1/cmr/m/n/9 Dustin Kleck-ner, Brian Pep-per, Evan Jef-frey, Petro Sonin, Su-sanna M. Thon, and Dirk
  []
 
-[13] [14])
-
-Package natbib Warning: There were undefined citations.
-
-[15] (./masters_proposal.aux)
+[13] [14]) [15] (./masters_proposal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -463,12 +490,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7662 strings out of 477053
- 118059 string characters out of 5802109
- 1938879 words of memory out of 5000000
- 28581 multiletter control sequences out of 15000+600000
- 565169 words of font info for 83 fonts, out of 8000000 for 9000
+ 7982 strings out of 476303
+ 121427 string characters out of 5788266
+ 1939248 words of memory out of 5000000
+ 29009 multiletter control sequences out of 15000+600000
+ 567734 words of font info for 77 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 71i,9n,79p,1529b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 71i,9n,79p,1530b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on masters_proposal.pdf (15 pages, 1370652 bytes).
+PDF statistics:
+ 177 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on masters_proposal.pdf (15 pages).

@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {A}Gravitational Wave Detector Noise}{3}{}
 \contentsline {subsection}{\numberline {B}White Light Cavities}{5}{}
 \contentsline {subsection}{\numberline {C}Overview of ND through Optomechanical Resonators}{6}{}
-\contentsline {section}{\numberline {III}Previous Works}{8}{}
-\contentsline {section}{\numberline {IV}Proposed Works}{10}{}
-\contentsline {section}{\numberline {V}Conclusion}{10}{}
+\contentsline {section}{\numberline {III}Preliminary Study}{8}{}
+\contentsline {section}{\numberline {IV}Proposed Works}{9}{}
+\contentsline {section}{\numberline {V}Conclusion}{12}{}
 \contentsline {section}{\numberline {}References}{13}{}
